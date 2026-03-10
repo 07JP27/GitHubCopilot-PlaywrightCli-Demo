@@ -1,0 +1,1016 @@
+- generic [active] [ref=e1]:
+  - link "コンテンツにスキップ" [ref=e2] [cursor=pointer]:
+    - /url: "#bodyContent"
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - navigation "サイト" [ref=e6]:
+        - generic "メインメニュー" [ref=e7]:
+          - button "メインメニュー" [ref=e8] [cursor=pointer]
+          - generic [ref=e11]: メインメニュー
+      - link "Wikipedia" [ref=e12] [cursor=pointer]:
+        - /url: /wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8
+        - img [ref=e13]
+        - img "Wikipedia" [ref=e15]
+    - generic [ref=e16]:
+      - search [ref=e17]:
+        - generic [ref=e20]:
+          - searchbox "Wikipedia内を検索" [ref=e23]
+          - button "検索" [ref=e25]
+      - navigation "個人用ツール" [ref=e26]:
+        - list [ref=e30]:
+          - listitem [ref=e31]:
+            - link "寄付" [ref=e32] [cursor=pointer]:
+              - /url: https://donate.wikimedia.org/?wmf_source=donate&wmf_medium=sidebar&wmf_campaign=ja.wikipedia.org&uselang=ja
+          - listitem [ref=e33]:
+            - link "アカウント作成" [ref=e34] [cursor=pointer]:
+              - /url: /w/index.php?title=%E7%89%B9%E5%88%A5:%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E4%BD%9C%E6%88%90&returnto=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+          - listitem [ref=e35]:
+            - link "ログイン" [ref=e36] [cursor=pointer]:
+              - /url: /w/index.php?title=%E7%89%B9%E5%88%A5:%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3&returnto=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+  - generic [ref=e38]:
+    - navigation "目次" [ref=e42]:
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - heading "目次" [level=2] [ref=e46]
+          - button "非表示" [ref=e47] [cursor=pointer]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - link "ページ先頭" [ref=e50] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e51]: ページ先頭
+          - listitem [ref=e52]:
+            - link "建造物におけるアクセシビリティ" [ref=e53] [cursor=pointer]:
+              - /url: "#建造物におけるアクセシビリティ"
+              - generic [ref=e54]: 建造物におけるアクセシビリティ
+            - button "建造物におけるアクセシビリティサブセクションを切り替えます" [expanded] [ref=e55]:
+              - generic [ref=e57]: 建造物におけるアクセシビリティサブセクションを切り替えます
+            - list [ref=e58]:
+              - listitem [ref=e59]:
+                - link "歴史的建造物におけるアクセシビリティ" [ref=e60] [cursor=pointer]:
+                  - /url: "#歴史的建造物におけるアクセシビリティ"
+                  - generic [ref=e61]: 歴史的建造物におけるアクセシビリティ
+                - list
+          - listitem [ref=e62]:
+            - link "サービスにおけるアクセシビリティ" [ref=e63] [cursor=pointer]:
+              - /url: "#サービスにおけるアクセシビリティ"
+              - generic [ref=e64]: サービスにおけるアクセシビリティ
+            - list
+          - listitem [ref=e65]:
+            - link "ウェブページにおけるアクセシビリティ" [ref=e66] [cursor=pointer]:
+              - /url: "#ウェブページにおけるアクセシビリティ"
+              - generic [ref=e67]: ウェブページにおけるアクセシビリティ
+            - button "ウェブページにおけるアクセシビリティサブセクションを切り替えます" [expanded] [ref=e68]:
+              - generic [ref=e70]: ウェブページにおけるアクセシビリティサブセクションを切り替えます
+            - list [ref=e71]:
+              - listitem [ref=e72]:
+                - link "日本産業規格のウェブアクセシビリティ" [ref=e73] [cursor=pointer]:
+                  - /url: "#日本産業規格のウェブアクセシビリティ"
+                  - generic [ref=e74]: 日本産業規格のウェブアクセシビリティ
+                - list
+          - listitem [ref=e75]:
+            - link "ウェブアクセシビリティが実現してゆくこと" [ref=e76] [cursor=pointer]:
+              - /url: "#ウェブアクセシビリティが実現してゆくこと"
+              - generic [ref=e77]: ウェブアクセシビリティが実現してゆくこと
+            - button "ウェブアクセシビリティが実現してゆくことサブセクションを切り替えます" [expanded] [ref=e78]:
+              - generic [ref=e80]: ウェブアクセシビリティが実現してゆくことサブセクションを切り替えます
+            - list [ref=e81]:
+              - listitem [ref=e82]:
+                - link "望まれる方法" [ref=e83] [cursor=pointer]:
+                  - /url: "#望まれる方法"
+                  - generic [ref=e84]: 望まれる方法
+                - list
+              - listitem [ref=e85]:
+                - link "課題" [ref=e86] [cursor=pointer]:
+                  - /url: "#課題"
+                  - generic [ref=e87]: 課題
+                - list
+          - listitem [ref=e88]:
+            - link "オフィス文書のアクセシビリティ" [ref=e89] [cursor=pointer]:
+              - /url: "#オフィス文書のアクセシビリティ"
+              - generic [ref=e90]: オフィス文書のアクセシビリティ
+            - list
+          - listitem [ref=e91]:
+            - link "脚注" [ref=e92] [cursor=pointer]:
+              - /url: "#脚注"
+              - generic [ref=e93]: 脚注
+            - button "脚注サブセクションを切り替えます" [expanded] [ref=e94]:
+              - generic [ref=e96]: 脚注サブセクションを切り替えます
+            - list [ref=e97]:
+              - listitem [ref=e98]:
+                - link "出典" [ref=e99] [cursor=pointer]:
+                  - /url: "#出典"
+                  - generic [ref=e100]: 出典
+                - list
+          - listitem [ref=e101]:
+            - link "参考文献" [ref=e102] [cursor=pointer]:
+              - /url: "#参考文献"
+              - generic [ref=e103]: 参考文献
+            - list
+          - listitem [ref=e104]:
+            - link "関連項目" [ref=e105] [cursor=pointer]:
+              - /url: "#関連項目"
+              - generic [ref=e106]: 関連項目
+            - list
+          - listitem [ref=e107]:
+            - link "外部リンク" [ref=e108] [cursor=pointer]:
+              - /url: "#外部リンク"
+              - generic [ref=e109]: 外部リンク
+            - list
+    - main [ref=e111]:
+      - generic [ref=e112]:
+        - heading "アクセシビリティ" [level=1] [ref=e113]
+        - generic [ref=e114]:
+          - button "特定の記事の別の言語版に移動します。 利用可能な言語42件" [ref=e115] [cursor=pointer]
+          - generic [ref=e118]: 42 個の言語版
+      - generic [ref=e120]:
+        - navigation "名前空間" [ref=e122]:
+          - generic [ref=e123]:
+            - generic:
+              - list:
+                - listitem [ref=e124]:
+                  - link "ページ" [ref=e125] [cursor=pointer]:
+                    - /url: /wiki/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+                    - generic [ref=e126]: ページ
+                - listitem [ref=e127]:
+                  - link "ノート" [ref=e128] [cursor=pointer]:
+                    - /url: /wiki/%E3%83%8E%E3%83%BC%E3%83%88:%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+                    - generic [ref=e129]: ノート
+        - generic [ref=e130]:
+          - navigation "表示" [ref=e131]:
+            - generic [ref=e132]:
+              - generic:
+                - list:
+                  - listitem [ref=e133]:
+                    - link "閲覧" [ref=e134] [cursor=pointer]:
+                      - /url: /wiki/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+                      - generic [ref=e135]: 閲覧
+                  - listitem [ref=e136]:
+                    - link "編集" [ref=e137] [cursor=pointer]:
+                      - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit
+                      - generic [ref=e138]: 編集
+                  - listitem [ref=e139]:
+                    - link "履歴を表示" [ref=e140] [cursor=pointer]:
+                      - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=history
+                      - generic [ref=e141]: 履歴を表示
+          - navigation "ページツール" [ref=e142]:
+            - generic [ref=e143]:
+              - button "ツール" [ref=e144] [cursor=pointer]
+              - generic [ref=e146] [cursor=pointer]: ツール
+      - navigation "表示" [ref=e149]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - generic [ref=e153]: 表示
+            - button "非表示" [ref=e154] [cursor=pointer]
+          - generic [ref=e155]:
+            - generic [ref=e156]: テキスト
+            - list [ref=e158]:
+              - listitem [ref=e159]:
+                - generic [ref=e161]:
+                  - generic [ref=e162]:
+                    - radio "小" [ref=e163]
+                    - generic [ref=e166]: 小
+                  - generic [ref=e167]:
+                    - radio "標準" [checked] [ref=e168]
+                    - generic [ref=e171]: 標準
+                  - generic [ref=e172]:
+                    - radio "大" [ref=e173]
+                    - generic [ref=e176]: 大
+          - generic [ref=e177]:
+            - generic [ref=e178]: 幅
+            - list [ref=e180]:
+              - listitem [ref=e181]:
+                - generic [ref=e183]:
+                  - generic [ref=e184]:
+                    - radio "標準" [checked] [ref=e185]
+                    - generic [ref=e188]: 標準
+                  - generic [ref=e189]:
+                    - radio "広め" [ref=e190]
+                    - generic [ref=e193]: 広め
+          - generic [ref=e194]:
+            - generic [ref=e195]:
+              - text: 色
+              - generic [ref=e196]: (ベータ)
+            - list [ref=e198]:
+              - listitem [ref=e199]:
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - radio "自動" [ref=e203]
+                    - generic [ref=e206]: 自動
+                  - generic [ref=e207]:
+                    - radio "ライト" [checked] [ref=e208]
+                    - generic [ref=e211]: ライト
+                  - generic [ref=e212]:
+                    - radio "ダーク" [ref=e213]
+                    - generic [ref=e216]: ダーク
+      - generic "アクセシビリティ" [ref=e217]:
+        - generic [ref=e219]: "出典: フリー百科事典『ウィキペディア（Wikipedia）』"
+        - generic [ref=e221]:
+          - table [ref=e223]:
+            - rowgroup [ref=e224]:
+              - row "ウィキペディア ウィキペディアにおけるアクセシビリティについては、「Wikipedia:アクセシビリティ」をご覧ください。" [ref=e225]:
+                - cell "ウィキペディア" [ref=e226]:
+                  - link "ウィキペディア" [ref=e228] [cursor=pointer]:
+                    - /url: /wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Wikipedia%27s_W.svg
+                    - img "ウィキペディア" [ref=e229]
+                - cell "ウィキペディアにおけるアクセシビリティについては、「Wikipedia:アクセシビリティ」をご覧ください。" [ref=e230]:
+                  - text: ウィキペディアにおけるアクセシビリティについては、「
+                  - link "Wikipedia:アクセシビリティ" [ref=e231] [cursor=pointer]:
+                    - /url: /wiki/Wikipedia:%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+                  - text: 」をご覧ください。
+          - table [ref=e233]:
+            - rowgroup [ref=e234]:
+              - row "曖昧さ回避 地理学の用語については「近接性」をご覧ください。" [ref=e235]:
+                - cell "曖昧さ回避" [ref=e236]:
+                  - link "曖昧さ回避" [ref=e238] [cursor=pointer]:
+                    - /url: /wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Disambig_gray.svg
+                    - img "曖昧さ回避" [ref=e239]
+                - cell "地理学の用語については「近接性」をご覧ください。" [ref=e240]:
+                  - text: 地理学の用語については「
+                  - link "近接性" [ref=e241] [cursor=pointer]:
+                    - /url: /wiki/%E8%BF%91%E6%8E%A5%E6%80%A7
+                  - text: 」をご覧ください。
+          - img [ref=e245]
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - text: この記事は
+              - link "検証可能" [ref=e248] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:%E6%A4%9C%E8%A8%BC%E5%8F%AF%E8%83%BD%E6%80%A7
+              - text: な
+              - link "参考文献や出典" [ref=e249] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:%E4%BF%A1%E9%A0%BC%E3%81%A7%E3%81%8D%E3%82%8B%E6%83%85%E5%A0%B1%E6%BA%90
+              - text: が全く示されていないか、不十分です。
+            - generic [ref=e250]:
+              - link "出典を追加" [ref=e251] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:%E5%87%BA%E5%85%B8%E3%82%92%E6%98%8E%E8%A8%98%E3%81%99%E3%82%8B
+              - text: して記事の信頼性向上にご協力ください。
+              - generic [ref=e252]:
+                - text: （
+                - link "このテンプレートの使い方" [ref=e253] [cursor=pointer]:
+                  - /url: /wiki/Template:%E5%87%BA%E5%85%B8%E3%81%AE%E6%98%8E%E8%A8%98/doc
+                - text: ）
+              - generic [ref=e255]:
+                - text: 出典検索
+                - link "?" [ref=e256] [cursor=pointer]:
+                  - /url: /wiki/Template:Find_sources_mainspace
+                  - superscript [ref=e257]: "?"
+                - text: ":"
+                - link "\"アクセシビリティ\"" [ref=e258] [cursor=pointer]:
+                  - /url: //www.google.co.jp/search?hl=ja&as_eq=wikipedia&q=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22&num=50
+                - text: –
+                - link "ニュース" [ref=e259] [cursor=pointer]:
+                  - /url: //www.google.co.jp/search?hl=ja&q=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22&tbm=nws
+                - text: ·
+                - link "書籍" [ref=e260] [cursor=pointer]:
+                  - /url: //www.google.co.jp/search?hl=ja&tbs=bks:1&q=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22
+                - text: ·
+                - link "スカラー" [ref=e261] [cursor=pointer]:
+                  - /url: //scholar.google.co.jp/scholar?num=100&hl=ja&q=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22
+                - text: ·
+                - link "CiNii" [ref=e262] [cursor=pointer]:
+                  - /url: https://ci.nii.ac.jp/opensearch/search?lang=ja&q=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22&range=2&count=200&sortorder=1&type=0
+                - text: ·
+                - link "J-STAGE" [ref=e263] [cursor=pointer]:
+                  - /url: https://www.jstage.jst.go.jp/result/global/-char/ja?globalSearchKey=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22
+                - text: ·
+                - link "NDL" [ref=e264] [cursor=pointer]:
+                  - /url: https://ndlsearch.ndl.go.jp/api/openurl?any=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22
+                - text: ·
+                - link "dlib.jp" [ref=e265] [cursor=pointer]:
+                  - /url: https://dlib.jp/?q=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22
+                - text: ·
+                - link "ジャパンサーチ" [ref=e266] [cursor=pointer]:
+                  - /url: https://jpsearch.go.jp/csearch/jps-cross?csid=jps-cross&keyword=%22%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%22
+                - text: ·
+                - link "TWL" [ref=e267] [cursor=pointer]:
+                  - /url: https://wikipedialibrary.wmflabs.org/partners/
+            - generic [ref=e269]:
+              - text: (
+              - generic [ref=e270]: 2016年8月
+              - text: )
+          - paragraph [ref=e271]:
+            - text: アクセシビリティ（
+            - link "英" [ref=e272] [cursor=pointer]:
+              - /url: /wiki/%E8%8B%B1%E8%AA%9E
+            - text: ": accessibility、略称: A11Y）とは、"
+            - link "障害者" [ref=e273] [cursor=pointer]:
+              - /url: /wiki/%E9%9A%9C%E5%AE%B3%E8%80%85
+            - text: が他の人と同じように物理的環境、輸送機関、情報通信及びその他の施設・サービスを利用できることをいう。
+          - paragraph [ref=e274]:
+            - text: 上記の定義は
+            - link "障害者権利条約" [ref=e275] [cursor=pointer]:
+              - /url: /wiki/%E9%9A%9C%E5%AE%B3%E8%80%85%E6%A8%A9%E5%88%A9%E6%9D%A1%E7%B4%84
+            - text: に基づく。その
+            - link "第9条" [ref=e276] [cursor=pointer]:
+              - /url: /wiki/%E9%9A%9C%E5%AE%B3%E8%80%85%E6%A8%A9%E5%88%A9%E6%9D%A1%E7%B4%84#第9条_アクセシビリティ
+            - text: は、英文では"Accessibility"であり、
+            - link "外務省が提供する日本語訳" [ref=e277] [cursor=pointer]:
+              - /url: https://www.mofa.go.jp/mofaj/files/000018093.pdf
+            - text: では「施設及びサービス等の利用の容易さ」となっている。
+            - link "欧州アクセシビリティ法" [ref=e278] [cursor=pointer]:
+              - /url: /wiki/%E6%AC%A7%E5%B7%9E%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E6%B3%95
+            - text: の定義もほぼ等しい。
+          - generic [ref=e279]:
+            - heading "建造物におけるアクセシビリティ" [level=2] [ref=e280]: 建造物におけるアクセシビリティ
+            - generic [ref=e281]:
+              - text: "["
+              - link "編集" [ref=e282] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=1
+              - text: "]"
+          - paragraph [ref=e283]:
+            - text: 建物と、建物に至る経路において、高齢者や障害者を含む誰もが、支障なく利用できることあるいはその度合いをいう。建物は、建物に至る移動経路などの都市設計上の配慮がなされて初めて利用可能となることから、建物のみでなく建物利用に至る経路を含めてアクセシビリティに配慮することが望まれる。ただし、その過程で、セキュリティの低下を伴うことがあるため、状況によっては新たにバリアが設けられ、結局施設管理者による介助がなければ施設が利用できないような場合もでてくる（例えば、施設内に進入されることが望ましくない
+            - link "自転車" [ref=e284] [cursor=pointer]:
+              - /url: /wiki/%E8%87%AA%E8%BB%A2%E8%BB%8A
+            - text: などの軽車両や
+            - link "キックボード" [ref=e285] [cursor=pointer]:
+              - /url: /wiki/%E3%82%AD%E3%83%83%E3%82%AF%E3%83%9C%E3%83%BC%E3%83%89
+            - text: などの遊具の通行を阻止するために
+            - link "車椅子" [ref=e286] [cursor=pointer]:
+              - /url: /wiki/%E8%BB%8A%E6%A4%85%E5%AD%90
+            - text: 用スロープに通行禁止用の柵が設けられ施錠されるなど）。
+            - link "高齢者、障害者等の移動等の円滑化の促進に関する法律" [ref=e287] [cursor=pointer]:
+              - /url: /wiki/%E9%AB%98%E9%BD%A2%E8%80%85%E3%80%81%E9%9A%9C%E5%AE%B3%E8%80%85%E7%AD%89%E3%81%AE%E7%A7%BB%E5%8B%95%E7%AD%89%E3%81%AE%E5%86%86%E6%BB%91%E5%8C%96%E3%81%AE%E4%BF%83%E9%80%B2%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E6%B3%95%E5%BE%8B
+            - text: （バリアフリー新法）も参照のこと。
+          - generic [ref=e288]:
+            - heading "歴史的建造物におけるアクセシビリティ" [level=3] [ref=e289]: 歴史的建造物におけるアクセシビリティ
+            - generic [ref=e290]:
+              - text: "["
+              - link "編集" [ref=e291] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=2
+              - text: "]"
+          - paragraph [ref=e292]:
+            - link "文化財" [ref=e293] [cursor=pointer]:
+              - /url: /wiki/%E6%96%87%E5%8C%96%E8%B2%A1
+            - text: や
+            - link "世界遺産" [ref=e294] [cursor=pointer]:
+              - /url: /wiki/%E4%B8%96%E7%95%8C%E9%81%BA%E7%94%A3
+            - text: などは
+            - link "公共性" [ref=e295] [cursor=pointer]:
+              - /url: /wiki/%E5%85%AC%E5%85%B1%E6%80%A7
+            - text: が高く、
+            - link "観光資源" [ref=e296] [cursor=pointer]:
+              - /url: /wiki/%E8%A6%B3%E5%85%89%E8%B3%87%E6%BA%90
+            - text: としても広く門戸が開かれているべきであるが、実際には保護の観点から
+            - link "木造建築" [ref=e297] [cursor=pointer]:
+              - /url: /wiki/%E6%9C%A8%E9%80%A0%E5%BB%BA%E7%AF%89
+            - text: の
+            - link "廊下" [ref=e298] [cursor=pointer]:
+              - /url: /wiki/%E5%BB%8A%E4%B8%8B
+            - text: や
+            - link "畳" [ref=e299] [cursor=pointer]:
+              - /url: /wiki/%E7%95%B3
+            - link "部屋" [ref=e300] [cursor=pointer]:
+              - /url: /wiki/%E9%83%A8%E5%B1%8B
+            - text: では車椅子での進入が制限され、
+            - link "バリアフリー" [ref=e301] [cursor=pointer]:
+              - /url: /wiki/%E3%83%90%E3%83%AA%E3%82%A2%E3%83%95%E3%83%AA%E3%83%BC
+            - text: が実現できない場合も多い。
+            - link "国宝" [ref=e302] [cursor=pointer]:
+              - /url: /wiki/%E5%9B%BD%E5%AE%9D
+            - text: で世界遺産でもある
+            - link "姫路城" [ref=e303] [cursor=pointer]:
+              - /url: /wiki/%E5%A7%AB%E8%B7%AF%E5%9F%8E
+            - text: では
+            - link "天守台" [ref=e304] [cursor=pointer]:
+              - /url: /wiki/%E5%A4%A9%E5%AE%88%E5%8F%B0
+            - text: へ至る道程は険しく、
+            - link "天守閣" [ref=e305] [cursor=pointer]:
+              - /url: /wiki/%E5%A4%A9%E5%AE%88%E9%96%A3
+            - text: に登るために
+            - link "リフト" [ref=e306] [cursor=pointer]:
+              - /url: /wiki/%E3%83%AA%E3%83%95%E3%83%88
+            - text: を設置することは文化財としては不可能である
+            - superscript [ref=e307]:
+              - link "[1]" [ref=e308] [cursor=pointer]:
+                - /url: "#cite_note-1"
+            - text: 。
+            - link "紀伊山地の霊場と参詣道" [ref=e309] [cursor=pointer]:
+              - /url: /wiki/%E7%B4%80%E4%BC%8A%E5%B1%B1%E5%9C%B0%E3%81%AE%E9%9C%8A%E5%A0%B4%E3%81%A8%E5%8F%82%E8%A9%A3%E9%81%93
+            - text: の
+            - link "熊野古道" [ref=e310] [cursor=pointer]:
+              - /url: /wiki/%E7%86%8A%E9%87%8E%E5%8F%A4%E9%81%93
+            - text: のような
+            - link "山道" [ref=e311] [cursor=pointer]:
+              - /url: /wiki/%E7%99%BB%E5%B1%B1%E9%81%93
+            - text: をバリアフリー化することも現実的ではない
+            - superscript [ref=e312]:
+              - link "[2]" [ref=e313] [cursor=pointer]:
+                - /url: "#cite_note-2"
+            - text: 。
+          - paragraph [ref=e314]:
+            - text: 特に世界遺産に関しては、改修などを制限する
+            - generic "リンク先の項目はまだありません。新規の執筆や他言語版からの翻訳が望まれます。" [ref=e315]:
+              - link "真正性" [ref=e316] [cursor=pointer]:
+                - /url: /w/index.php?title=%E7%9C%9F%E6%AD%A3%E6%80%A7&action=edit&redlink=1
+              - generic [ref=e317]:
+                - text: （
+                - link "英語版" [ref=e318] [cursor=pointer]:
+                  - /url: https://en.wikipedia.org/wiki/Authenticity_in_art
+                - text: ）
+            - text: の取り決めがあり
+            - superscript [ref=e319]:
+              - link "[3]" [ref=e320] [cursor=pointer]:
+                - /url: "#cite_note-3"
+            - text: 、
+            - link "ヨーロッパ" [ref=e321] [cursor=pointer]:
+              - /url: /wiki/%E3%83%A8%E3%83%BC%E3%83%AD%E3%83%83%E3%83%91
+            - text: の世界遺産において、
+            - link "国際連合教育科学文化機関" [ref=e322] [cursor=pointer]:
+              - /url: /wiki/%E5%9B%BD%E9%9A%9B%E9%80%A3%E5%90%88%E6%95%99%E8%82%B2%E7%A7%91%E5%AD%A6%E6%96%87%E5%8C%96%E6%A9%9F%E9%96%A2
+            - text: がアクセシビリティに関するあり方の協議を始めている
+            - superscript [ref=e323]:
+              - link "[4]" [ref=e324] [cursor=pointer]:
+                - /url: "#cite_note-4"
+            - text: 。また、
+            - link "イギリス" [ref=e325] [cursor=pointer]:
+              - /url: /wiki/%E3%82%A4%E3%82%AE%E3%83%AA%E3%82%B9
+            - text: ・
+            - link "カンタベリー大主教" [ref=e326] [cursor=pointer]:
+              - /url: /wiki/%E3%82%AB%E3%83%B3%E3%82%BF%E3%83%99%E3%83%AA%E3%83%BC%E5%A4%A7%E4%B8%BB%E6%95%99
+            - text: の
+            - link "ジャスティン・ウェルビー" [ref=e327] [cursor=pointer]:
+              - /url: /wiki/%E3%82%B8%E3%83%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%B3%E3%83%BB%E3%82%A6%E3%82%A7%E3%83%AB%E3%83%93%E3%83%BC
+            - text: は「
+            - link "信徒" [ref=e328] [cursor=pointer]:
+              - /url: /wiki/%E4%BF%A1%E5%BE%92
+            - text: が
+            - link "礼拝" [ref=e329] [cursor=pointer]:
+              - /url: /wiki/%E7%A4%BC%E6%8B%9D
+            - text: に訪れる
+            - link "教会" [ref=e330] [cursor=pointer]:
+              - /url: /wiki/%E6%95%99%E4%BC%9A
+            - text: を含めた歴史的建造物において、その
+            - link "文化遺産" [ref=e331] [cursor=pointer]:
+              - /url: /wiki/%E6%96%87%E5%8C%96%E9%81%BA%E7%94%A3
+            - text: としての保護よりもアクセシビリティの整備を優先すべき」とし、「障害者を含む全て人々の心が満たされることで保護の意識も高まる」と述べている
+            - superscript [ref=e332]:
+              - link "[5]" [ref=e333] [cursor=pointer]:
+                - /url: "#cite_note-5"
+            - text: 。
+          - link "[icon]" [ref=e335] [cursor=pointer]:
+            - /url: /wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Wiki_letter_w_cropped.svg
+            - img "[icon]" [ref=e336]
+          - generic [ref=e337]:
+            - text: この節の
+            - link "加筆" [ref=e338] [cursor=pointer]:
+              - /url: https://ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit
+            - text: が望まれています。
+          - generic [ref=e339]:
+            - heading "サービスにおけるアクセシビリティ" [level=2] [ref=e340]: サービスにおけるアクセシビリティ
+            - generic [ref=e341]:
+              - text: "["
+              - link "編集" [ref=e342] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=3
+              - text: "]"
+          - paragraph [ref=e343]: 助成制度や補助制度などのサービスを、高齢者・障害者を含む誰もが、支障なく利用できることあるいはその度合いをいう。サービスは、利用による便益が、これを享受するための手間を凌駕してこそ利用価値があることから、サービス利用による便益享受に至るまでがアクセシビリティの評価対象となる。
+          - generic [ref=e344]:
+            - heading "ウェブページにおけるアクセシビリティ" [level=2] [ref=e345]: ウェブページにおけるアクセシビリティ
+            - generic [ref=e346]:
+              - text: "["
+              - link "編集" [ref=e347] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=4
+              - text: "]"
+          - paragraph [ref=e348]:
+            - link "ウェブページ" [ref=e349] [cursor=pointer]:
+              - /url: /wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8
+            - text: におけるアクセシビリティとは、障害をもつ人が利用できるように
+            - link "ウェブページ" [ref=e350] [cursor=pointer]:
+              - /url: /wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%9A%E3%83%BC%E3%82%B8
+            - text: が設計・開発されていることを意味する。
+          - paragraph [ref=e351]:
+            - text: またウェブではコンピュータが情報を判別できることも重要である。検索サイトを作るための
+            - link "クローラ" [ref=e352] [cursor=pointer]:
+              - /url: /wiki/%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9
+            - text: によって効率的に解読されたり、ソフトウェアが情報を判別するのに役に立つ。
+          - paragraph [ref=e353]:
+            - text: ウェブページには、閲覧するための
+            - link "ウェブブラウザ" [ref=e354] [cursor=pointer]:
+              - /url: /wiki/%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6
+            - text: を指定したり、
+            - link "解像度" [ref=e355] [cursor=pointer]:
+              - /url: /wiki/%E8%A7%A3%E5%83%8F%E5%BA%A6
+            - text: を指定したデザイン、
+            - link "Macromedia Flash" [ref=e356] [cursor=pointer]:
+              - /url: /wiki/Macromedia_Flash
+            - text: のような技術を使用したものがあるが、代替の情報を加えることによって異なる環境でも情報を取得することができる。障害者用のソフトウェアは、ウェブページの情報を
+            - link "音声" [ref=e357] [cursor=pointer]:
+              - /url: /wiki/%E9%9F%B3%E5%A3%B0
+            - text: や
+            - link "点字" [ref=e358] [cursor=pointer]:
+              - /url: /wiki/%E7%82%B9%E5%AD%97
+            - text: によって出力するが、代替情報がない場合に情報が取得できない場合がある。
+          - paragraph [ref=e359]:
+            - link "総務省" [ref=e360] [cursor=pointer]:
+              - /url: /wiki/%E7%B7%8F%E5%8B%99%E7%9C%81
+            - text: によれば、障害者のインターネット利用状況は、「利用している」53.0%、「利用していない」46.9%である。障害種別にみると、視覚障害、聴覚障害、肢体不自由では「利用している」がそれぞれ91.7%、93.4%、82.7%、知的障害では、「利用していない」53.0%である
+            - superscript [ref=e361]:
+              - link "[6]" [ref=e362] [cursor=pointer]:
+                - /url: "#cite_note-6"
+            - text: 。
+          - paragraph [ref=e363]: アクセシビリティに配慮するためのリニューアルの費用を抑えるため、不自由のある人の使用性を高めるプラグインやASPサービスも普及している。HTMLレベルでのアクセシビリティの実装に膨大な費用が掛かる場合、暫定的な方法となりえる。
+          - paragraph [ref=e364]:
+            - text: ウェブに関する主要な国際機関である
+            - link "World Wide Web Consortium" [ref=e365] [cursor=pointer]:
+              - /url: /wiki/World_Wide_Web_Consortium
+            - text: (W3C) により、
+            - link "ウェブ・コンテンツ・アクセシビリティ・ガイドライン" [ref=e366] [cursor=pointer]:
+              - /url: /wiki/Web_Content_Accessibility_Guidelines
+            - text: (WCAG) が策定されている。2023年にバージョン2.2(WCAG 2.2)が、2018年にバージョン2.1(WCAG 2.1)が、1999年にバージョン1.0 (WCAG 1.0) が、2008年にバージョン2.0 (WCAG 2.0) が策定されている。WCAG 2.0は、2012年10月に
+            - link "国際標準化機構" [ref=e367] [cursor=pointer]:
+              - /url: /wiki/%E5%9B%BD%E9%9A%9B%E6%A8%99%E6%BA%96%E5%8C%96%E6%A9%9F%E6%A7%8B
+            - text: (ISO) と
+            - link "国際電気標準会議" [ref=e368] [cursor=pointer]:
+              - /url: /wiki/%E5%9B%BD%E9%9A%9B%E9%9B%BB%E6%B0%97%E6%A8%99%E6%BA%96%E4%BC%9A%E8%AD%B0
+            - text: (IEC) の技術標準の「
+            - link "ISO/IEC" [ref=e369] [cursor=pointer]:
+              - /url: /wiki/ISO/IEC_JTC_1
+            - text: 40500:2012」となっている。
+          - generic [ref=e370]:
+            - heading "日本産業規格のウェブアクセシビリティ" [level=3] [ref=e371]: 日本産業規格のウェブアクセシビリティ
+            - generic [ref=e372]:
+              - text: "["
+              - link "編集" [ref=e373] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=5
+              - text: "]"
+          - figure "日本産業規格の「高齢者・障害者等配慮設計指針－情報通信における機器，ソフトウェア及びサービス」の規格は、基本規格、共通規格、個別規格の3層構造である。ウェブコンテンツは個別規格の第3部である" [ref=e374]:
+            - link [ref=e375] [cursor=pointer]:
+              - /url: /wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:3%E5%B1%A4%E6%A7%8B%E9%80%A0.png
+              - img [ref=e376]
+            - generic [ref=e377]: 日本産業規格の「高齢者・障害者等配慮設計指針－情報通信における機器，ソフトウェア及びサービス」の規格は、基本規格、共通規格、個別規格の3層構造である。ウェブコンテンツは個別規格の第3部である
+          - paragraph [ref=e378]:
+            - text: 日本では
+            - link "日本産業規格" [ref=e379] [cursor=pointer]:
+              - /url: /wiki/%E6%97%A5%E6%9C%AC%E7%94%A3%E6%A5%AD%E8%A6%8F%E6%A0%BC
+            - text: (JIS) により規格化されている。2004年6月20日にJIS X 8341-3が公表された。
+          - list [ref=e380]:
+            - listitem [ref=e381]: X 8341-3：高齢者・障害者等配慮設計指針—情報通信における機器、ソフトウェア及びサービス—第3部：ウェブコンテンツ
+          - paragraph [ref=e382]: これは一般的にWebコンテンツJISと呼ばれる。JIS X 8341-3:2004は国内外の既存ガイドラインなどを参考に、日本語特有と思われる事項も網羅した独自の指針で制定された。
+          - paragraph [ref=e383]: ここでいうウェブコンテンツとは、ウェブブラウザ、支援技術などのユーザエージェントによって利用者に伝達されるあらゆる情報及び感覚的な体験を指す。日本産業規格の情報処理部門が、主に高齢者、障害のある人および一時的な障害のある人に対して、ウェブコンテンツを知覚し、理解し、操作できるようにするためにウェブコンテンツを、制作し検証するために配慮すべき事項を指針として明示したものである。
+          - paragraph [ref=e384]: 2008年にWCAG 2.0が勧告されたことを受け、WCAG 2.0を包含する形で2010年8月20日にJIS X 8341-3:2010として改正された。改正前と同様に、知覚可能性、操作可能性、理解可能性、堅牢性の4つの原則に整理され、61個の基準が示されている。またプロセス（企画、設計〜運用まで）および試験方法を独自に追加している。
+          - paragraph [ref=e385]: 2012年10月にWCAG 2.0が国際規格「ISO/IEC 40500:2012」として制定されたことを受け、国際規格の一致規格とする形で2016年3月22日にJIS X 8341-3:2016として改正された。独自の表現としていた訳語を2016年の改正ではWCAG 2.0に忠実に合わせる（あえて原文の分かりにくさも尊重する）ことや、2010年版で独自に追加した要求事項を附属書として追加することが行われた。
+          - paragraph [ref=e386]: 2023年以降、WCAG 2.2が勧告されることに併せて国際規格および日本産業規格が改正される予定となっている。
+          - paragraph [ref=e387]:
+            - text: JISへの準拠は基本的に任意であるが、
+            - link "産業標準化法" [ref=e388] [cursor=pointer]:
+              - /url: /wiki/%E7%94%A3%E6%A5%AD%E6%A8%99%E6%BA%96%E5%8C%96%E6%B3%95
+            - text: の第67条では「国及び地方公共団体は、鉱工業に関する技術上の基準を定めるとき、その買い入れる鉱工業品に関する仕様を定めるとき（中略）日本産業規格を尊重してこれをしなければならない」とあり、尊重義務が発生する。
+          - generic [ref=e389]:
+            - heading "ウェブアクセシビリティが実現してゆくこと" [level=2] [ref=e390]: ウェブアクセシビリティが実現してゆくこと
+            - generic [ref=e391]:
+              - text: "["
+              - link "編集" [ref=e392] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=6
+              - text: "]"
+          - paragraph [ref=e393]:
+            - link "言語障害" [ref=e394] [cursor=pointer]:
+              - /url: /wiki/%E8%A8%80%E8%AA%9E%E9%9A%9C%E5%AE%B3
+            - text: など、
+            - link "視力" [ref=e395] [cursor=pointer]:
+              - /url: /wiki/%E8%A6%96%E5%8A%9B
+            - text: 、
+            - link "聴力" [ref=e396] [cursor=pointer]:
+              - /url: /wiki/%E8%81%B4%E5%8A%9B
+            - text: 、
+            - link "発声" [ref=e397] [cursor=pointer]:
+              - /url: /wiki/%E7%99%BA%E5%A3%B0
+            - text: といった
+            - link "コミュニケーション" [ref=e398] [cursor=pointer]:
+              - /url: /wiki/%E3%82%B3%E3%83%9F%E3%83%A5%E3%83%8B%E3%82%B1%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3
+            - text: 上の障害や、運動障害による
+            - link "情報格差" [ref=e399] [cursor=pointer]:
+              - /url: /wiki/%E6%83%85%E5%A0%B1%E6%A0%BC%E5%B7%AE
+            - text: を軽減する。これまでになかった多様なコミュニケーションが可能となりえる。
+          - paragraph [ref=e400]: アクセシビリティを向上させることで機能が低下することにも注意が必要である。システムの即応性や、多機能化が必要な場合に、同等の代替手段としてアクセシビリティにも考慮される。特に、人命に関わる情報提供などで議論されてきている。
+          - paragraph [ref=e401]: ウェブサイトから公的な情報を的確に取得できるようになる。これにより技術の発展によって他者の介助に依存することなく、情報の取得と発信の可能性を拡げることが期待される。
+          - generic [ref=e402]:
+            - term [ref=e403]: 視覚障害：失視
+            - definition [ref=e404]:
+              - link "スクリーンリーダー" [ref=e405] [cursor=pointer]:
+                - /url: /wiki/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC
+              - text: あるいは
+              - link "音声ブラウザ" [ref=e406] [cursor=pointer]:
+                - /url: /wiki/%E9%9F%B3%E5%A3%B0%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6
+              - text: と呼ばれるソフトウェアを用いる。
+              - link "音声認識" [ref=e407] [cursor=pointer]:
+                - /url: /wiki/%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98
+              - text: や
+              - link "合成音声による音訳" [ref=e408] [cursor=pointer]:
+                - /url: /wiki/%E9%9F%B3%E8%A8%B3#合成音声による音訳
+              - text: への対応が課題となる。なお、印刷物に対して
+              - link "光学文字認識" [ref=e409] [cursor=pointer]:
+                - /url: /wiki/%E5%85%89%E5%AD%A6%E6%96%87%E5%AD%97%E8%AA%8D%E8%AD%98
+              - text: (OCR)を行い音声化する方法では、枠線などで読めない場合が多い。
+            - term [ref=e410]: 視力障害：重度弱視
+            - definition [ref=e411]:
+              - text: 重度弱視（
+              - link "ロービジョン" [ref=e412] [cursor=pointer]:
+                - /url: /wiki/%E3%83%AD%E3%83%BC%E3%83%93%E3%82%B8%E3%83%A7%E3%83%B3
+              - text: ）では、文字拡大の手段と、場合により音声の手段とを使い分けることが多い。コンピュータ上では画面をルーペで拡大する場合と、ソフトウェアで拡大する場合がある。文字の大きさが小さいと特に読みづらさが増すので、大きめに設計してほしいという当事者もいる。なお、印刷物では
+              - link "拡大読書器" [ref=e413] [cursor=pointer]:
+                - /url: /w/index.php?title=%E6%8B%A1%E5%A4%A7%E8%AA%AD%E6%9B%B8%E5%99%A8&action=edit&redlink=1
+              - text: などモニターに拡大表示を行う装置が存在する。
+            - definition [ref=e414]: 音声による手段については、失視と同様である。
+            - term [ref=e415]: 聴覚障害
+            - definition [ref=e416]:
+              - text: 電話の使用が不自由なため、文字が扱えればハンディは軽減される。問い合わせ先には、キー入力が未学習の人を対象として
+              - link "ファクシミリ" [ref=e417] [cursor=pointer]:
+                - /url: /wiki/%E3%83%95%E3%82%A1%E3%82%AF%E3%82%B7%E3%83%9F%E3%83%AA
+              - text: 番号の掲載があると望ましい。
+            - term [ref=e418]: 上肢運動障害
+            - definition [ref=e419]: ウェブページ上で操作上の工夫があれば、スイッチやリンクからの閲覧や移動が可能である。
+            - term [ref=e420]: 盲聾
+            - definition [ref=e421]:
+              - link "全盲聾" [ref=e422] [cursor=pointer]:
+                - /url: /wiki/%E7%9B%B2%E3%82%8D%E3%81%86%E8%80%85
+              - text: （ぜんもうろう）では、
+              - link "点字ディスプレー" [ref=e423] [cursor=pointer]:
+                - /url: /wiki/%E7%82%B9%E5%AD%97
+              - text: は優れているが高価すぎ、また文字数などレスポンスは良いとはいえない。
+          - generic [ref=e424]:
+            - heading "望まれる方法" [level=3] [ref=e425]: 望まれる方法
+            - generic [ref=e426]:
+              - text: "["
+              - link "編集" [ref=e427] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=7
+              - text: "]"
+          - figure "赤緑色覚異常が視認性にどう影響するかを示しているスクリーンショット" [ref=e428]:
+            - link "同じように主に文字を用いたユーザーインターフェースの2つのスクリーンショット。上のものは赤、緑、青を使用している。下のものは赤と緑にほぼ同じ色を使用しているもので、赤い文字は緑の背景の中でほとんど見えなくなっている。" [ref=e429] [cursor=pointer]:
+              - /url: /wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Example_of_team_color_problem_on_Clive_Churchill_article.png
+              - img "同じように主に文字を用いたユーザーインターフェースの2つのスクリーンショット。上のものは赤、緑、青を使用している。下のものは赤と緑にほぼ同じ色を使用しているもので、赤い文字は緑の背景の中でほとんど見えなくなっている。" [ref=e430]
+            - generic [ref=e431]: 赤緑色覚異常が視認性にどう影響するかを示しているスクリーンショット
+          - list [ref=e432]:
+            - listitem [ref=e433]:
+              - text: 画像への
+              - link "代替テキスト" [ref=e434] [cursor=pointer]:
+                - /url: /wiki/%E4%BB%A3%E6%9B%BF%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88
+              - text: 。（
+              - code [ref=e435]: <img alt="画像が見えない場合の説明" />
+              - text: ）
+            - listitem [ref=e436]:
+              - text: 重複する表記の省略：重複する表記の記述を可能な限り減らすように配慮する。またタイトルやメニューの一覧などは、スクリーンリーダーや音声認識などを用いてジャンプする（
+              - code [ref=e437]: <a href="#mainText">本文へジャンプ</a>
+              - text: ・・タイトル・メニュー・・・
+              - code [ref=e438]: <a id="mainText">本文</a>）
+              - text: ）。
+            - listitem [ref=e439]:
+              - text: リンクの範囲を大きく（
+              - code [ref=e440]: tabindex
+              - text: や、アクセスキーの使用）
+            - listitem [ref=e441]: 文字サイズの可変性：文字の大きさを特殊なソフトを使用しなくても拡大できる。文字の大きさを絶対サイズではなく、相対サイズで定義すれば、汎用ブラウザで拡大ができる。
+            - listitem [ref=e442]:
+              - link "スタイルシート" [ref=e443] [cursor=pointer]:
+                - /url: /wiki/%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%82%B7%E3%83%BC%E3%83%88
+              - text: の解除や、ユーザスタイルシートに対応した属性の定義。
+            - listitem [ref=e444]:
+              - link "色覚異常" [ref=e445] [cursor=pointer]:
+                - /url: /wiki/%E8%89%B2%E8%A6%9A%E7%95%B0%E5%B8%B8
+              - text: （第一、第二、第三、全色盲）への配慮を可能な限りする。赤・緑・黄・水色などにウェブデザイナーが注意する。
+          - generic [ref=e446]:
+            - heading "課題" [level=3] [ref=e447]: 課題
+            - generic [ref=e448]:
+              - text: "["
+              - link "編集" [ref=e449] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=8
+              - text: "]"
+          - paragraph [ref=e450]: アクセシビリティというカタカナの訳語自体が理解されにくいのではないかという指摘もある。「アクセシビリティ対応」などと書いていても、万人が理解しやすいとはいえない点も考慮する必要がある。
+          - paragraph [ref=e451]:
+            - text: 明確な基準がない中で、十分なアクセシビリティを確保していなくても「アクセシビリティに配慮した」という表現を行うケースもある。実情に即した対応を行うには、知識だけのアクセシビリティではなく、障害当事者を交えて改善（
+            - link "フィードバック" [ref=e452] [cursor=pointer]:
+              - /url: /wiki/%E3%83%95%E3%82%A3%E3%83%BC%E3%83%89%E3%83%90%E3%83%83%E3%82%AF
+            - text: ）を行っていく必要がある。
+          - paragraph [ref=e453]:
+            - link "HTML" [ref=e454] [cursor=pointer]:
+              - /url: /wiki/HyperText_Markup_Language
+            - text: 、
+            - link "CSS" [ref=e455] [cursor=pointer]:
+              - /url: /wiki/Cascading_Style_Sheets
+            - text: などの
+            - link "コーディング" [ref=e456] [cursor=pointer]:
+              - /url: /wiki/%E3%82%B3%E3%83%BC%E3%83%87%E3%82%A3%E3%83%B3%E3%82%B0
+            - text: 規格は、英語圏を中心に標準化されており、日本語の表現をそのままコーディングできない現状もある。
+          - generic [ref=e457]:
+            - heading "オフィス文書のアクセシビリティ" [level=2] [ref=e458]: オフィス文書のアクセシビリティ
+            - generic [ref=e459]:
+              - text: "["
+              - link "編集" [ref=e460] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=9
+              - text: "]"
+          - paragraph [ref=e461]:
+            - text: ウェブページ以外にも、
+            - link "Microsoft Office" [ref=e462] [cursor=pointer]:
+              - /url: /wiki/Microsoft_Office
+            - text: などによって作成されたOOXML文書、
+            - link "LibreOffice" [ref=e463] [cursor=pointer]:
+              - /url: /wiki/LibreOffice
+            - text: などによって作成されたODF文書、それらを変換して作成されたPDF文書が大量に存在する。これらがアクセシブルであることは重要である。
+          - paragraph [ref=e464]: OOXMLについては、ISO/IEC 29500-1のAnnex Jに、アクセシビリティのためのベストプラクティスが示されている。そこでは、実装も、文書作成者も、アクセシビリティを達成するための努力が求められている。
+          - paragraph [ref=e465]: ODFについては、ODF 1.3 Part 3のAppendix Dに、アクセシビリティガイドラインが示されている。
+          - paragraph [ref=e466]: PDFについては、JIS X 8341-3:2016に、アクセシビリティのための要件が示されている。ナビゲーションができることは要件の一つであるが、そうしたPDFを作ることは困難なことがある。
+          - generic [ref=e467]:
+            - heading "脚注" [level=2] [ref=e468]: 脚注
+            - generic [ref=e469]:
+              - text: "["
+              - link "編集" [ref=e470] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=10
+              - text: "]"
+          - generic [ref=e471]:
+            - text: "["
+            - link "脚注の使い方" [ref=e472] [cursor=pointer]:
+              - /url: /wiki/Help:%E8%84%9A%E6%B3%A8/%E8%AA%AD%E8%80%85%E5%90%91%E3%81%91
+            - text: "]"
+          - generic [ref=e473]:
+            - heading "出典" [level=3] [ref=e474]: 出典
+            - generic [ref=e475]:
+              - text: "["
+              - link "編集" [ref=e476] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=11
+              - text: "]"
+          - list [ref=e478]:
+            - listitem [ref=e479]:
+              - link "^" [ref=e481] [cursor=pointer]:
+                - /url: "#cite_ref-1"
+              - generic [ref=e482]:
+                - link "文化庁 名古屋城天守閣 エレベーター非設置に可否答えず" [ref=e483] [cursor=pointer]:
+                  - /url: https://mainichi.jp/articles/20180605/k00/00m/040/089000c
+                - text: 毎日新聞2018年6月4日
+            - listitem [ref=e484]:
+              - link "^" [ref=e486] [cursor=pointer]:
+                - /url: "#cite_ref-2"
+              - generic [ref=e487]:
+                - link "歴史的観光地におけるバリアフリー化の動向と課題に関する考察" [ref=e489] [cursor=pointer]:
+                  - /url: http://www.civil.eng.osaka-u.ac.jp/plan/image/pdf/2009_fukushi1.pdf
+                - generic [ref=e490]:
+                  - text: (
+                  - link "PDF" [ref=e491] [cursor=pointer]:
+                    - /url: /wiki/Portable_Document_Format
+                  - text: )
+                - link "文化財・世界遺産のアクセシビリティに関する特別研究委員会" [ref=e493] [cursor=pointer]:
+                  - /url: http://www.fukumachi.net/iinkai/iinkai12-2016.pdf
+                - generic [ref=e494]:
+                  - text: (
+                  - link "PDF" [ref=e495] [cursor=pointer]:
+                    - /url: /wiki/Portable_Document_Format
+                  - text: )
+                - link "世界遺産、歴史的建造物のバリアフリー研究" [ref=e497] [cursor=pointer]:
+                  - /url: https://www.toyo.ac.jp/uploaded/attachment/17089.pdf
+                - generic [ref=e498]:
+                  - text: (
+                  - link "PDF" [ref=e499] [cursor=pointer]:
+                    - /url: /wiki/Portable_Document_Format
+                  - text: )
+                - link "文化遺産におけるバリアフリーの基礎的研究" [ref=e501] [cursor=pointer]:
+                  - /url: http://mng.trpt.cst.nihon-u.ac.jp/pdf/meeting/H25/16.pdf
+                - generic [ref=e502]:
+                  - text: (
+                  - link "PDF" [ref=e503] [cursor=pointer]:
+                    - /url: /wiki/Portable_Document_Format
+                  - text: )
+            - listitem [ref=e504]:
+              - link "^" [ref=e506] [cursor=pointer]:
+                - /url: "#cite_ref-3"
+              - generic [ref=e507]:
+                - link "完全性及び/又は真正性" [ref=e508] [cursor=pointer]:
+                  - /url: https://bunka.nii.ac.jp/special_content/h_13_2E
+                - link "文化庁" [ref=e509] [cursor=pointer]:
+                  - /url: /wiki/%E6%96%87%E5%8C%96%E5%BA%81
+                - text: （文化遺産オンライン）
+            - listitem [ref=e510]:
+              - link "^" [ref=e512] [cursor=pointer]:
+                - /url: "#cite_ref-4"
+              - generic [ref=e513]:
+                - 'link "European Symposium: Heritage and Accessibility" [ref=e514] [cursor=pointer]':
+                  - /url: https://whc.unesco.org/en/events/1005
+                - text: UNESCO
+            - listitem [ref=e515]:
+              - link "^" [ref=e517] [cursor=pointer]:
+                - /url: "#cite_ref-5"
+              - generic [ref=e518]:
+                - link "Disability and accessibility over heritage, says Archbishop of Canterbury" [ref=e519] [cursor=pointer]:
+                  - /url: http://www.sportsmanagement.co.uk/detail.cfm?pagetype=detail&subject=news&codeID=338421
+                - text: Sports Management 2018.7.18
+            - listitem [ref=e520]:
+              - link "^" [ref=e522] [cursor=pointer]:
+                - /url: "#cite_ref-6"
+              - text: 総務省「障がいのある方々の インターネット等の利用に 関する調査研究 ［結果概要］平成24年6月」総務省情報通信政策研究所調査研究部、2012年。
+          - generic [ref=e523]:
+            - heading "参考文献" [level=2] [ref=e524]: 参考文献
+            - generic [ref=e525]:
+              - text: "["
+              - link "編集" [ref=e526] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=12
+              - text: "]"
+          - img [ref=e529]
+          - generic [ref=e530]:
+            - generic [ref=e531]:
+              - link "出典" [ref=e532] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:%E3%82%B9%E3%82%BF%E3%82%A4%E3%83%AB%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB/%E3%83%AC%E3%82%A4%E3%82%A2%E3%82%A6%E3%83%88#参考文献
+              - text: は列挙するだけでなく、
+              - link "脚注" [ref=e533] [cursor=pointer]:
+                - /url: /wiki/Help:%E8%84%9A%E6%B3%A8
+              - text: などを用いて
+              - link "どの記述の情報源であるかを明記" [ref=e534] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:%E5%87%BA%E5%85%B8%E3%82%92%E6%98%8E%E8%A8%98%E3%81%99%E3%82%8B#出典の示し方
+              - text: してください。
+            - generic [ref=e535]:
+              - text: 記事の
+              - link "信頼性向上" [ref=e536] [cursor=pointer]:
+                - /url: /wiki/Wikipedia:%E6%A4%9C%E8%A8%BC%E5%8F%AF%E8%83%BD%E6%80%A7
+              - text: にご協力をお願いいたします。
+              - generic [ref=e537]: （2021年8月）
+          - list [ref=e538]:
+            - listitem [ref=e539]:
+              - text: kosuke_nakai「
+              - link "アクセシビリティに関する例" [ref=e540] [cursor=pointer]:
+                - /url: https://weblife-forjob.com/accessibility-webdesign
+              - text: 」2019年5月1日
+            - listitem [ref=e541]: 田中正躬編『高齢者・障害者等配慮設計指針－情報通信における機器，ソフトウェア及びサービス－第3 部：ウェブコンテンツ JIS X 8341-3：2010』日本規格協会、2010年
+          - generic [ref=e542]:
+            - heading "関連項目" [level=2] [ref=e543]: 関連項目
+            - generic [ref=e544]:
+              - text: "["
+              - link "編集" [ref=e545] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=13
+              - text: "]"
+          - list [ref=e546]:
+            - listitem [ref=e547]:
+              - link "ユーザビリティ" [ref=e548] [cursor=pointer]:
+                - /url: /wiki/%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+            - listitem [ref=e549]:
+              - link "バリアフリー" [ref=e550] [cursor=pointer]:
+                - /url: /wiki/%E3%83%90%E3%83%AA%E3%82%A2%E3%83%95%E3%83%AA%E3%83%BC
+            - listitem [ref=e551]:
+              - link "合理的配慮" [ref=e552] [cursor=pointer]:
+                - /url: /wiki/%E5%90%88%E7%90%86%E7%9A%84%E9%85%8D%E6%85%AE
+            - listitem [ref=e553]:
+              - link "障害のある人の権利条約" [ref=e554] [cursor=pointer]:
+                - /url: /wiki/%E9%9A%9C%E5%AE%B3%E8%80%85%E6%A8%A9%E5%88%A9%E6%9D%A1%E7%B4%84
+            - listitem [ref=e555]:
+              - link "ユニバーサルデザイン" [ref=e556] [cursor=pointer]:
+                - /url: /wiki/%E3%83%A6%E3%83%8B%E3%83%90%E3%83%BC%E3%82%B5%E3%83%AB%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3
+            - listitem [ref=e557]:
+              - link "マルチモーダル・インタフェース" [ref=e558] [cursor=pointer]:
+                - /url: /wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A2%E3%83%BC%E3%83%80%E3%83%AB%E3%83%BB%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9
+            - listitem [ref=e559]:
+              - link "マルチモーダル・アクセシビリティ" [ref=e560] [cursor=pointer]:
+                - /url: /wiki/%E3%83%9E%E3%83%AB%E3%83%81%E3%83%A2%E3%83%BC%E3%83%80%E3%83%AB%E3%83%BB%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+            - listitem [ref=e561]:
+              - link "リハビリテーション法第508条" [ref=e562] [cursor=pointer]:
+                - /url: /wiki/%E3%83%AA%E3%83%8F%E3%83%93%E3%83%AA%E3%83%86%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E6%B3%95%E7%AC%AC508%E6%9D%A1
+            - listitem [ref=e563]:
+              - link "情報保障" [ref=e564] [cursor=pointer]:
+                - /url: /wiki/%E6%83%85%E5%A0%B1%E4%BF%9D%E9%9A%9C
+            - listitem [ref=e565]:
+              - link "コンピュータアクセシビリティ" [ref=e566] [cursor=pointer]:
+                - /url: /wiki/%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+            - listitem [ref=e567]:
+              - link "ユビキタス社会" [ref=e568] [cursor=pointer]:
+                - /url: /wiki/%E3%83%A6%E3%83%93%E3%82%AD%E3%82%BF%E3%82%B9%E7%A4%BE%E4%BC%9A
+            - listitem [ref=e569]:
+              - link "マイクロソフト支援技術ベンダプログラム" [ref=e570] [cursor=pointer]:
+                - /url: /wiki/%E3%83%9E%E3%82%A4%E3%82%AF%E3%83%AD%E3%82%BD%E3%83%95%E3%83%88%E6%94%AF%E6%8F%B4%E6%8A%80%E8%A1%93%E3%83%99%E3%83%B3%E3%83%80%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0
+            - listitem [ref=e571]:
+              - link "クワイエット・アワー" [ref=e572] [cursor=pointer]:
+                - /url: /wiki/%E3%82%AF%E3%83%AF%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88%E3%83%BB%E3%82%A2%E3%83%AF%E3%83%BC
+            - listitem [ref=e573]:
+              - link "ゲームのアクセシビリティ" [ref=e574] [cursor=pointer]:
+                - /url: /wiki/%E3%82%B2%E3%83%BC%E3%83%A0%E3%81%AE%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+          - generic [ref=e575]:
+            - heading "外部リンク" [level=2] [ref=e576]: 外部リンク
+            - generic [ref=e577]:
+              - text: "["
+              - link "編集" [ref=e578] [cursor=pointer]:
+                - /url: /w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&action=edit&section=14
+              - text: "]"
+          - list [ref=e579]:
+            - listitem [ref=e580]:
+              - link "Web Accessibility Initiative (WAI)" [ref=e581] [cursor=pointer]:
+                - /url: https://www.w3.org/WAI/
+              - text: （英語） -
+              - link "Web Accessibility Initiative" [ref=e582] [cursor=pointer]:
+                - /url: /wiki/Web_Accessibility_Initiative
+              - list [ref=e583]:
+                - listitem [ref=e584]:
+                  - link "Web Content Accessibility Guidelines 2.1" [ref=e585] [cursor=pointer]:
+                    - /url: https://www.w3.org/TR/WCAG21/
+                  - text: （英語）
+            - listitem [ref=e586]:
+              - link "情報アクセシビリティの規格" [ref=e587] [cursor=pointer]:
+                - /url: https://barrierfree.nict.go.jp/jis/
+              - text: "-"
+              - link "情報通信研究機構" [ref=e588] [cursor=pointer]:
+                - /url: /wiki/%E6%83%85%E5%A0%B1%E9%80%9A%E4%BF%A1%E7%A0%94%E7%A9%B6%E6%A9%9F%E6%A7%8B
+            - listitem [ref=e589]:
+              - link "ウェブアクセシビリティ基盤委員会（WAIC）" [ref=e590] [cursor=pointer]:
+                - /url: https://waic.jp/
+            - listitem [ref=e591]:
+              - link "ICTアクセシビリティの推進" [ref=e592] [cursor=pointer]:
+                - /url: https://www.soumu.go.jp/main_sosiki/joho_tsusin/b_free/b_free02.html
+              - text: "- 総務省"
+            - listitem [ref=e593]:
+              - link "サービスデザイン" [ref=e594] [cursor=pointer]:
+                - /url: https://www.digital.go.jp/policies/servicedesign
+              - text: "- デジタル庁"
+            - listitem [ref=e595]:
+              - link "公益財団法人日本適合性認定協会に認定された検査機関" [ref=e596] [cursor=pointer]:
+                - /url: http://www.jab.or.jp/system/service/inspectionagency/accreditation/
+              - text: "- キーワード\"アクセシビリティ\"で検索"
+            - listitem [ref=e597]:
+              - link "ウェブサイトアクセシビリティツール" [ref=e598] [cursor=pointer]:
+                - /url: https://atoall.com/ja/
+          - navigation "Navbox" [ref=e599]:
+            - table [ref=e600]:
+              - rowgroup [ref=e601]:
+                - 'row "典拠管理データベース: 国立図書館 ウィキデータを編集 ドイツ · チェコ" [ref=e602]':
+                  - 'rowheader "典拠管理データベース: 国立図書館 ウィキデータを編集" [ref=e603]':
+                    - link "典拠管理データベース" [ref=e604] [cursor=pointer]:
+                      - /url: /wiki/Help:%E5%85%B8%E6%8B%A0%E7%AE%A1%E7%90%86
+                    - text: ": 国立図書館"
+                    - link "ウィキデータを編集" [ref=e606] [cursor=pointer]:
+                      - /url: https://www.wikidata.org/wiki/Q555097#identifiers
+                      - img "ウィキデータを編集" [ref=e607]
+                  - cell "ドイツ · チェコ" [ref=e608]:
+                    - list [ref=e610]:
+                      - listitem [ref=e611]:
+                        - link "ドイツ" [ref=e613] [cursor=pointer]:
+                          - /url: https://d-nb.info/gnd/4806684-9
+                        - text: ·
+                      - listitem [ref=e614]:
+                        - generic "bezbariérový přístup" [ref=e616]:
+                          - link "チェコ" [ref=e617] [cursor=pointer]:
+                            - /url: https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph151457&CON_LNG=ENG
+        - generic [ref=e619]:
+          - link "カテゴリ" [ref=e620] [cursor=pointer]:
+            - /url: /wiki/%E7%89%B9%E5%88%A5:%E3%82%AB%E3%83%86%E3%82%B4%E3%83%AA
+          - text: ":"
+          - list [ref=e621]:
+            - listitem [ref=e622]:
+              - link "バリアフリー" [ref=e623] [cursor=pointer]:
+                - /url: /wiki/Category:%E3%83%90%E3%83%AA%E3%82%A2%E3%83%95%E3%83%AA%E3%83%BC
+            - listitem [ref=e624]:
+              - link "ユーザインタフェース" [ref=e625] [cursor=pointer]:
+                - /url: /wiki/Category:%E3%83%A6%E3%83%BC%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%BF%E3%83%95%E3%82%A7%E3%83%BC%E3%82%B9
+            - listitem [ref=e626]:
+              - link "快適技術" [ref=e627] [cursor=pointer]:
+                - /url: /wiki/Category:%E5%BF%AB%E9%81%A9%E6%8A%80%E8%A1%93
+            - listitem [ref=e628]:
+              - link "ウェブブラウザ" [ref=e629] [cursor=pointer]:
+                - /url: /wiki/Category:%E3%82%A6%E3%82%A7%E3%83%96%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6
+            - listitem [ref=e630]:
+              - link "ウェブアクセシビリティ" [ref=e631] [cursor=pointer]:
+                - /url: /wiki/Category:%E3%82%A6%E3%82%A7%E3%83%96%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3
+            - listitem [ref=e632]:
+              - link "性能" [ref=e633] [cursor=pointer]:
+                - /url: /wiki/Category:%E6%80%A7%E8%83%BD
+    - contentinfo [ref=e635]:
+      - list [ref=e636]:
+        - listitem [ref=e637]:
+          - text: 最終更新 2026年1月21日 (水) 13:27 （日時は
+          - link "個人設定" [ref=e638] [cursor=pointer]:
+            - /url: /wiki/%E7%89%B9%E5%88%A5:%E5%80%8B%E4%BA%BA%E8%A8%AD%E5%AE%9A#mw-prefsection-rendering
+          - text: で未設定ならば
+          - link "UTC" [ref=e639] [cursor=pointer]:
+            - /url: /wiki/%E5%8D%94%E5%AE%9A%E4%B8%96%E7%95%8C%E6%99%82
+          - text: ）。
+        - listitem [ref=e640]:
+          - text: テキストは
+          - link "クリエイティブ・コモンズ 表示-継承ライセンス" [ref=e641] [cursor=pointer]:
+            - /url: https://creativecommons.org/licenses/by-sa/4.0/deed.ja
+          - text: のもとで利用できます。追加の条件が適用される場合があります。詳細については
+          - link "利用規約" [ref=e642] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use
+          - text: を参照してください。
+      - list:
+        - listitem [ref=e643]:
+          - link "プライバシー・ポリシー" [ref=e644] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy/ja
+        - listitem [ref=e645]:
+          - link "ウィキペディアについて" [ref=e646] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:%E3%82%A6%E3%82%A3%E3%82%AD%E3%83%9A%E3%83%87%E3%82%A3%E3%82%A2%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+        - listitem [ref=e647]:
+          - link "免責事項" [ref=e648] [cursor=pointer]:
+            - /url: /wiki/Wikipedia:%E5%85%8D%E8%B2%AC%E4%BA%8B%E9%A0%85
+        - listitem [ref=e649]:
+          - link "行動規範" [ref=e650] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct
+        - listitem [ref=e651]:
+          - link "開発者" [ref=e652] [cursor=pointer]:
+            - /url: https://developer.wikimedia.org
+        - listitem [ref=e653]:
+          - link "統計" [ref=e654] [cursor=pointer]:
+            - /url: https://stats.wikimedia.org/#/ja.wikipedia.org
+        - listitem [ref=e655]:
+          - link "Cookieに関する声明" [ref=e656] [cursor=pointer]:
+            - /url: https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement
+        - listitem [ref=e657]:
+          - link "モバイルビュー" [ref=e658] [cursor=pointer]:
+            - /url: //ja.wikipedia.org/w/index.php?title=%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3&mobileaction=toggle_view_mobile
+      - list [ref=e659]:
+        - listitem [ref=e660]:
+          - link "Wikimedia Foundation" [ref=e661] [cursor=pointer]:
+            - /url: https://www.wikimedia.org/
+            - img "Wikimedia Foundation" [ref=e663]
+        - listitem [ref=e664]:
+          - link "Powered by MediaWiki" [ref=e665] [cursor=pointer]:
+            - /url: https://www.mediawiki.org/
+            - img "Powered by MediaWiki" [ref=e667]
+  - generic [ref=e668]:
+    - list
