@@ -1,2 +1,7 @@
 .playwright-cli/
 .DS_Store
+1-manual-generation/
+2-responsive-manual/
+3-multilingual-manual/
+4-evidence-capture/
+5-accessibility-assessment/
